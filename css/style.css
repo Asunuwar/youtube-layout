@@ -1,0 +1,28 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: light blue;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #ef930;
+  border: 3px solid #d71f43;
+  margin-bottom: 5px;
+}
