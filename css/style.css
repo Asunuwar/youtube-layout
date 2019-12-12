@@ -1,28 +1,44 @@
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-.flex{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: light blue;
-  margin-bottom: 20px;
-  padding: 5px;
+html {
+  background: #fcfcfc;
+}
+
+body {
+  font-family: sans-serif;
+}
+.noscroll {
+	overflow: hidden;
 }
 
 
-.box {
-  width: 150px;
-  height: 150px;
-  background-color: #ef930;
-  border: 3px solid #d71f43;
-  margin-bottom: 5px;
+.content {
+  display: block;
+  min-height: 100vh;
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  padding: 1.5rem;
+}
+
+h1{
+  font-size: 24px;
+  color: red;
+  text-decoration-color: red;
+}
+
+.content .video{
+  position: relative;
+  font-size: 0;
+  width: calc(100% + 2rem);
+  margin: 0 -1rem;
 }
